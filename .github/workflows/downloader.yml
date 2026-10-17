@@ -22,7 +22,7 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install requests flask
+        run: pip install requests
 
       - name: Write Secret script to runner disk and execute
         env:
